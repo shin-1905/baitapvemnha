@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-color: lightblue;
+    font-size: 30px;
+}
+#hinhchunhat, #hinhtamgiac{
+    padding: 20px;
+    width: 90px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+#hinhvuong{
+    padding: 20px;
+    width: 1px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.text{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.text1{
+    font-size: 25px;
+}
+.ovuong{
+    margin: 0px 20px 20px 0px;
+    font-size: 17px;
+    width: 190px;
+    height: 30px;
+}
+button{
+    width: 145px;
+    height: 30px;
+    font-size: 15px;
+    background-color: lightblue;
+    border:0px ;
+    margin: 0px;
+}
+button:hover{
+    background-color: #33CCFF;
+}

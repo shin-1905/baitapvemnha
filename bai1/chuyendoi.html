@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển đổi độ C sang độ F</title>
+    <link rel="stylesheet" href="chuyendoi.css">
+    <script src="chuyendoi.js" ></script>
+</head>
+<h1>Chuyển đổi độ °C sang độ °F</h1>
+<body>
+    <table>
+        <tr>
+            <th class="text">Độ °C</th>
+            <th></th>
+            <th class="text">Độ °F</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="number" placeholder="Nhập độ °C" id="doc">
+            </td>
+            <td id="muiten"> → </td>
+            <td>
+                <input type="number" placeholder="Kết quả °F" id="dof" readonly> 
+            </td>
+            <td>
+                <button type="button" onclick="chuyendoi()">Chuyển đổi</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

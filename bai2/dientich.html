@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính tích</title>
+    <link rel="stylesheet" href="dientinh.css">
+    <script src="dientich.js" ></script>
+</head>
+<h1>Tính diện tích</h1>
+<body>
+    <table id="hinhchunhat">
+        <tr>
+            <th colspan="3" class="text1">Hình Chữ Nhật</th>
+        </tr>
+        <tr>
+            <td class="text">Nhập chiều dài:</td>
+            <td class="text">Nhập chiều rộng:</td>
+            <td class="text">Diện tích:</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="number" placeholder="Chiều dài" id="Daichunhat" class="ovuong">
+            </td>
+            <td>
+                <input type="number" placeholder="Chiều rộng" id="Rongchunhat" class="ovuong"> 
+            </td>
+            <td>
+                <input type="number" placeholder="Kết quả" id="dientichchunhat" class="ovuong" readonly>
+            </td>            
+        </tr>
+        <tr>
+            <th colspan="3">
+            <button type="button" onclick="hinhchunhat()">Tính diện tích </button>
+            </th>
+        </tr>
+    </table>
+    <table id="hinhtamgiac">
+        <tr>
+            <th colspan="3" class="text1">Hình tam giác</th>
+        </tr>
+        <tr>
+            <th class="text">Nhập chiều cao:</th>
+            <th class="text">Nhập cạnh đáy:</th>
+            <th class="text">Diện tích:</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="number" placeholder="Chiều cao" id="caotamgiac" class="ovuong">
+            </td>
+            <td>
+                <input type="number" placeholder="Cạnh đáy" id="daytamgiac" class="ovuong"> 
+            </td>
+            <td>
+                <input type="number" placeholder="Kết quả" id="dientichtamgiac" class="ovuong" readonly>
+            </td>            
+        </tr>
+        <tr>
+            <th colspan="3">
+            <button type="button" onclick="hinhtamgiac()">Tính diện tích </button>
+            </th>
+        </tr>
+    </table>
+    <table id="hinhvuong">
+        <tr>
+            <th colspan="2" class="text1">Hình vuông</th>
+        </tr>
+        <tr>
+            <th class="text">Nhập cạnh hình vuông: </th>
+            <th class="text">Diện tích:</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="number" placeholder="Cạnh" id="canhhinhvuong" class="ovuong">
+            </td>
+            <td>
+                <input type="number" placeholder="Kết quả" id="dientichvuong" class="ovuong" readonly> 
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <button type="button" onclick="hinhvuong()">Tính diện tích</button>
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
